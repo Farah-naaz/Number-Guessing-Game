@@ -1,0 +1,99 @@
+/* ==========common part start ============== */
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.background_video {
+    position: fixed;
+    object-fit: cover;
+    opacity: 50%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index:-100;
+}
+.heading{
+    color: orange;
+    font-size: 50px;
+    font-weight: 700;
+}
+.PlayerName{
+    color: rgb(7, 7, 233); 
+    font-size: 40px;
+    font-weight: 900;
+}
+.main{
+padding: 25px;
+background-color: maroon;
+border-radius: 100px;
+  
+}
+.main input{
+    width: 400px;
+    height: 40px;
+    background-color: #E4C59E;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.main button{
+    color: brown;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 20px;
+    background: #AF8260;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+}
+.main button:active{
+    transform: scale(1.1);
+}
+.error{
+    font-size: 25px;
+    font-weight: 700;
+    color: red;
+}
+.turns{
+    font-size: 25px;
+    font-weight: 600;
+    color: wheat;
+}
+.winner{
+    display: none;
+    font-style: italic;
+}
+.winner .winner_name{
+    color: aqua;
+    font-size: 35px;
+    font-weight: bold;
+}
+.winner img{
+    width: 200px;
+}
+.winner h4{
+    font-size: 30px;
+    font-weight: bold;
+    color: bisque;
+}
+.player_two{
+    display: none;
+}
+.player_three{
+    display: none;
+}
+.player_four{
+    display: none;
+}
+/* ==========common part end ============== */

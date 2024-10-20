@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/style 22.css">
+</head>
+<body>
+<!---------  common part start  ----->
+<div class="background_video">
+    <video autoplay muted loop>
+        <source src="videos/background video.mp4" type="video/mp4">
+      </video>
+</div>
+
+<h1 class="heading">Number Guessing Game</h1>
+
+<h2 class="PlayerName">Player : 1</h2>
+<!---------  common part start  ----->
+
+<!---------  player_one part start  ----->
+<div class="main player_one">
+    <input class="player_one_input" placeholder="Player One" type="number">
+    <button class="player_one_button">Go</button>
+</div>
+<!---------  player_one part end  ----->
+
+<!---------  player_two part start  ----->
+<div class="main player_two">
+    <h3 class="turns"><span class="main_turn"></span>/5</h3>
+    <input class="player_two_input" placeholder="Player Two" type="number">
+    <button class="player_two_button">Go</button>
+</div>
+<!---------  player_two part end  ----->
+
+<!---------  player_three part start  ----->
+<div class="main player_three">
+    <h3 class="turns"><span class="main_turn3"></span>/5</h3>
+    <input class="player_three_input" placeholder="Player Three" type="number">
+    <button class="player_three_button">Go</button>
+</div>
+<!---------  player_three part end  ----->
+
+<!---------  player_four part start  ----->
+<div class="main player_four">
+    <h3 class="turns"><span class="main_turn4"></span>/5</h3>
+    <input class="player_four_input" placeholder="Player Four" type="number">
+    <button class="player_four_button">Go</button>
+</div>
+<!---------  player_four part end  ----->
+
+<!---------  common part start  ----->
+<p class="error"></p>
+
+<div class="winner">
+    <img src="images/winner.gif" alt="winner">
+    <h4 class="winner_name">/h4>
+</div>
+<!---------  common part end  ----->
+
+<script src="js/script 22.js"></script>
+</body>
+</html>
